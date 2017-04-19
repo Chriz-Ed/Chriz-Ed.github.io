@@ -4,28 +4,97 @@
   <head>
     <meta charset="utf-8">
      <title>HTML Reference</title>
-  </head>
+
    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Stylesheet for project -->
+<link rel="stylesheet" href="about.css">
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</html>
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96940109-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
 <body>
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+	
+<div class="navbar-header">
+      <a class="navbar-brand" href="#">PS</a>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="About.html">About</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#social">Social</a></li>
+      </ul>
+    
   </div>
+  
 </nav>
+
+<div class="container-fluid">
+
+<section id="intro">
+<div class="text-center">
+  <h1>Christopher Eddy</h1>
+  <p>Font end web devloper</p>
+
+</div>
+</section>   
+   
+<section id="about">  	
+<div class="panel panel-default">
+<div class="panel-body">Introduction</div>
+    <p>
+    I am Christopher, front end web developer. Based in Petaling Jaya. Spends free time learning new web frameworks and technologies. 		
+    </p>
+    </div>
+</section>
+
+   
+<section id="project">  	
+	<div class="panel panel-default">
+    <div class="panel-body">Projects</div>
+    <ul class="list-group">
+    		<li class="list-group-item"> <a href="Calculator.html">Calculator</a> </li>
+    		<li class="list-group-item"> <a href="Shopping List.html">Shopping List</a></li>
+    		
+  		</ul>
+	</div>
+</section>
+    
+<section id="contact">  	
+<div class="panel panel-default">
+<div class="panel-body">Contact</div>
+    <div class="col-md-6" ><span class="glyphicon glyphicon-earphone"></span><p>+60 016 5255904</div>
+    <div class="col-md-6" ><span class="glyphicon glyphicon-envelope"></span><p>chrised08@gmail.com</div> 
+    </div>
+</section>  
+    
+    
+    
+
+        
+<section id = "copyright">
+	<footer>
+     <div class="col-md-4" > <p>Copyright2017</p></div>
+   
+    </footer>
+
 </body>
+</html>

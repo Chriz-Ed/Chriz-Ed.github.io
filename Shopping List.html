@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Pesonalised css -->
+<link rel="stylesheet" href="shopping.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+
+function add()
+{
+    var listAdd = $('#item-list').val();
+    $('#shopping-list').append("<p>" + listAdd + "</p>");
+}
+
+function remove()
+{
+
+    $( '#shopping-list' ).empty();
+
+}
+
+
+</script>
+</head>
+
+<body>
+
+<div class = container-fluid>
+
+    <h2 class="text-center"> Shopping List </h2>
+
+ <div class="form-group">
+      <label for="items">Items:</label>
+      <input type="text" class="form-control" id="item-list">
+    </div>
+
+   <button type="button" onclick="add();"> Add </button>
+   <button type="button" onclick="remove();"> Remove </button>
+   <br/>
+
+    <div class="item" id="list-div">
+      <h3>Your items</h3>
+        <p id = shopping-list> </p>
+
+    </div>
+
+</div>
+</body>
+
+</html>

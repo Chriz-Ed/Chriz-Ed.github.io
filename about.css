@@ -1,25 +1,74 @@
-.navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      background-color: black;
-      letter-spacing: 5px;
-  }
-  n.avbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
+  .navbar-nav  
+	  li a: hover  {
+      color: white ;     
+ }   
+  
+    
+body{
+	background-color: white;
+
+}
+
+.container{
+	background-color: #e6f9ff;
+}
 
 h1 {
     font-family: Arial, "MS Trebuchet", sans-serif;
     text-align: center;
+    color: #680000  ;
+}
+
+h2 {
+    font-family: Arial, "MS Trebuchet", sans-serif;
+    text-align: center;
+    color: #680000  ;
+}
+
+h3 {
+    font-family: Arial, "MS Trebuchet", sans-serif;
+    text-align: center;
+    color: #680000  ;
 }
 
 p {
     font-family: "Arial", Helvetica, sans-serif ;
+    font-size: 12px ;
+
 }
-    font-size: 72px ;
+
+.panel-default {
+		border: 0px;   
 }
+
+.panel-body {
+	font-family: "Arial", Helvetica, sans-serif ;
+	font-size: 36px;
+	background-color:#f2f2f2;
+	color: #990000 ;
+	text-align: center ;
+} 
+
+.list-group{
+	border: 0px;
+	font-family: "Arial", Helvetica, sans-serif ;
+	font-size: 18px;
+	background-color: #000000;
+	color: #black;
+
+}
+
+p{
+	font-size: 18px ;
+	font-family: "Arial", Helvetica, sans-serif ;
+	font-size: 18px ;
+	color: #black;
+}
+
+#contact{
+    background-color: #990000;
+}
+
+
+
+
