@@ -27,23 +27,42 @@
 
   ga('create', 'UA-96940109-1', 'auto');
   ga('send', 'pageview');
+    
+     window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '418348675200219',
+      xfbml      : true,
+      version    : 'v2.9'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
 
 </script>
 </head>
 
 <body>
 	
-<div class="navbar-header">
-      <a class="navbar-brand" href="index.html">CME</a>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">CME</a>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About</a></li>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
   </div>
+</nav>
   
 <div class="container-fluid">
 
@@ -71,6 +90,7 @@
     <ul class="list-group">
     		<li class="list-group-item"> <a href="Calculator.html">Calculator</a> </li>
     		<li class="list-group-item"> <a href="Shopping List.html">Shopping List</a></li>
+            <li class="list-group-item"> <a href="Hello.html">Google Analytics</a></li>
     		
   		</ul>
 	</div>
