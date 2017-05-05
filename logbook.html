@@ -15,7 +15,7 @@
   <div class="container">
     <div class="navbar-header">
 
-      <a class="navbar-brand" href=""index.html">Universidade</a>
+      <a class="navbar-brand" href=""index.html>Universidade</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -29,66 +29,56 @@
 </nav>
 <body>
 
-<div class="container">
-  <h2>Basic Table</h2>
-  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <form class="form-horizontal">
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
+<div class="panel panel-default">
+  <div class="panel-body">
+  	<h1> Logbook </h1>
   </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Password:</label>
-    <div class="col-sm-10"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
-</form>
 </div>
+    
+<div class="container">
+<div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse1">
+        <h2><span class="glyphicon glyphicon-plus">
+       </span> New Entry </h2> 
+        </a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+        <form>
+ 
+ <div class="form-group">
+    <label for="exampleInputEmail1"> Name </label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  
+  <div class="form-group">
+    <label for="studentID"><strong> Student ID</strong></label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+     
+<div class="form-group">
+    <label for="exampleInputEmail1"> Date </label>
+    <input type="Date" class="form-control" id="date" placeholder="Email">
+  </div>
 
-
+    <div class="form-group" >
+      <textarea></textarea>
+  </div>
+           
+        
+</form>
+        
+    </div>
+      <div class="panel-footer"> <button type="submit" class="btn btn-default">Set Appointment</button></div>
+    </div>
+  </div>
+</div>
+</div>
 
 </body>
 
