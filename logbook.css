@@ -6,7 +6,7 @@
       margin-bottom: 0;
       font-size: 12px;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      background-color: #000080;
+      background-color: #000033;
 
   }
   .navbar-nav  li a:hover {
@@ -26,4 +26,9 @@ p {
 
 input{
   border-bottom: black;
+}
+
+.jumbotron {
+    background-color: #474e5d;
+    color: white ;
 }

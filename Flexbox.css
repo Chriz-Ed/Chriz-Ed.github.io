@@ -1,23 +1,14 @@
-body{
-    background-color: aliceblue;
-}
-
-a{
-    color: beige;
-    font-size: 20px ;
+  .navbar-nav  
+	  li a: hover  {
+      color: white ;     
+ }   
+  
     
+body{
+	background-color: white;
+
 }
 
-.container-fluid{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-.container{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
 
 h1 {
     font-family: Arial, "MS Trebuchet", sans-serif;
@@ -35,13 +26,13 @@ h2 {
 h3 {
     font-family: Arial, "MS Trebuchet", sans-serif;
     text-align: center;
-    color: red;
+    color: lightcoral;
 }
 
 .panel-body {
-    color: white;
 	font-family: "Arial", Helvetica, sans-serif ;
 	font-size: 36px;
+    color : crimson;
 	text-align: center ;
 } 
 
@@ -54,33 +45,25 @@ h3 {
 }
 
 p{
-	font-size: 20px ;
+	font-size: 18px ;
 	font-family: "Arial", Helvetica, sans-serif ;
-	color: black;
+	color: white;
 }
 
-#project {
-     background-color: #474e5d;
+#body {
+    background-color: black;
 }
 
-#about {
-    background-color:  #5f9ea0 ;
+#navigation {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#footer {
+    position: absolute;
+    background-color: black;
+    color: white;
 }
 
 
-#top {
-    background-color: white;
-    text-align: center ;
-}
-
-.primary {
-    background-color: white;
-    height:10em;
-    border:1px ;
-}
-
-.secondary{
-background-color: white;
-height:3em;
-border:1px;
-}

@@ -22,15 +22,19 @@ form {
 	text-align: center;
 }
 
-.form-control{
-      border-style: hidden ;
- 
-    }
+ul{
+    text-align: center;
+}
 
 .btn-default{
 	 border-color: blue ;
-	 border style: solid;
+	 border-style: solid;
 	 border: 0 px;
+}
+
+
+h1 {
+	text-align: center;
 }
 
 h2 {
@@ -38,15 +42,26 @@ h2 {
 }
 
 .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      background-color: #000033 ;
       border: 0;
       border-radius: 0;
       font-size: 12px;
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      background-color: #000033 ;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      
   }
   
 .li {
 	text-align: center;
 }
+
+.jumbotron {
+    background-color: #474e5d;
+}
+
+#container-fluid{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+}
+
